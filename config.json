@@ -1,0 +1,13 @@
+{
+  "camera": 0,
+  "face_dwell_seconds": 2,
+  "rearm_absence_seconds": 10,
+  "identity_dir": "identities",
+  "identity_threshold": 55,
+  "greeting": "Hello {name}. Welcome to our engineering lab. I am your humanoid presenter. Let us begin.",
+  "displays": [
+    {"name": "Local HDMI or paired wireless TV", "url": "http://127.0.0.1:8765", "token_env": "G1_DISPLAY_TOKEN", "priority": 1, "deck": "demo"},
+    {"name": "Remote room display PC", "url": "http://192.168.1.50:8765", "token_env": "G1_REMOTE_TOKEN", "priority": 2, "deck": "demo"}
+  ],
+  "robot": {"commissioned": false, "interface": "eth0", "actions": {"greet": 25, "present": null, "finish": null}}
+}

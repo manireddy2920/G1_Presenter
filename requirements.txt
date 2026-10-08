@@ -1,0 +1,6 @@
+flask>=3.0,<4
+waitress>=3.0,<4
+opencv-contrib-python>=4.9,<5
+numpy>=1.26,<3
+screeninfo>=0.8,<1
+pywin32>=306; sys_platform == 'win32'
